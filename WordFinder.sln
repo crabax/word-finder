@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordFinder.ConsolePoC", "WordFinder.ConsolePoC\WordFinder.ConsolePoC.csproj", "{ABE40BC0-71E0-4F04-A793-170CCAAE1950}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordFinder.Lib", "WordFinder.Lib\WordFinder.Lib.csproj", "{DB9E8DD9-C8EC-4C14-83E6-8E9E15CB012F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordFinder.Test", "WordFinder.Test\WordFinder.Test.csproj", "{E24D6F2F-5E73-43AC-9FBD-D41D12B017E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{08B12189-8D96-47B7-A541-1FC178934D37}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABE40BC0-71E0-4F04-A793-170CCAAE1950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABE40BC0-71E0-4F04-A793-170CCAAE1950}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABE40BC0-71E0-4F04-A793-170CCAAE1950}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABE40BC0-71E0-4F04-A793-170CCAAE1950}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB9E8DD9-C8EC-4C14-83E6-8E9E15CB012F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB9E8DD9-C8EC-4C14-83E6-8E9E15CB012F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB9E8DD9-C8EC-4C14-83E6-8E9E15CB012F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB9E8DD9-C8EC-4C14-83E6-8E9E15CB012F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E24D6F2F-5E73-43AC-9FBD-D41D12B017E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E24D6F2F-5E73-43AC-9FBD-D41D12B017E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E24D6F2F-5E73-43AC-9FBD-D41D12B017E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E24D6F2F-5E73-43AC-9FBD-D41D12B017E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8D99F3C5-D48A-4073-95CF-211DA05C939E}
+	EndGlobalSection
+EndGlobal

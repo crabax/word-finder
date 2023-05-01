@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WordFinder.Lib\WordFinder.Lib.csproj" />
+    <ProjectReference Include="..\WordFinder.Test\WordFinder.Test.csproj" />
+  </ItemGroup>
+
+</Project>
