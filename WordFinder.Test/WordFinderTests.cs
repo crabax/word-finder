@@ -91,5 +91,33 @@ namespace WordFinderTest
             //asset
             found.Count(m => expected.Contains(m)).ShouldBe(expected.Count);
         }
+
+        [Fact]
+        public void Find_64x64UniqueWords_ReturnsTop20WordsFound()
+        {
+            //arrage
+            var wordFinder = new WordFinder(Consts.Matrix64x64_v2)
+            {
+                TopMostRepeated = 20
+            };
+
+            var wordStream = new List<string>
+            {
+                "arch", "bird", "clay", "dusk", "echo", "girl", "hope", "iris", "jade", "knot",
+                "lava", "moon", "nest", "onyx", "pear", "quay", "rain", "sand", "tusk", "vase"
+            };
+
+            var expected = new List<string>
+            {
+                "arch", "bird", "clay", "dusk", "echo", "girl", "hope", "iris", "jade", "knot",
+                "lava", "moon", "nest", "onyx", "pear", "quay", "rain", "sand", "tusk", "vase"
+            };
+
+            //act
+            var found = wordFinder.Find(wordStream);
+
+            //asset
+            found.Count(m => expected.Contains(m)).ShouldBe(expected.Count);
+        }
     }
 }
